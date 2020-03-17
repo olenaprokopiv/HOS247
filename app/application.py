@@ -1,6 +1,5 @@
-from hos247.pages.main_hos_page import MainPage
-from hos247.pages.pricing_page import PricingPage
-
+from pages.main_hos_page import MainPage
+from pages.pricing_page import PricingPage
 
 class Application:
     def __init__(self, driver):
