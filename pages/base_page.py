@@ -17,6 +17,8 @@ class Page:
         self.driver.get(url)
 
     def click(self, *locator):
+        print(f'click on locator {locator}')
+        logger.info(f'click element {locator}')
         elem = self.driver.find_element(*locator)
         elem.click()
 
@@ -28,6 +30,7 @@ class Page:
         return self.driver.find_element(*locator)
 
     def find_elements(self, *locator):
+        logger.info(f'find element {locator}')
         return self.driver.find_elements(*locator)
 
     def input(self, text: str, *locator):
@@ -36,6 +39,7 @@ class Page:
         e.send_keys(text)
 
     def wait_for_element_click(self, *locator):
+        logger.info(f'wait_for_element_click {locator}')
         e = self.wait.until(EC.element_to_be_clickable(locator))
         e.click()
 
@@ -46,6 +50,7 @@ class Page:
         self.wait.until(EC.presence_of_element_located(locator))
 
     def verify_element_text(self, expected_text: str, *locator):
+        self.wait_for_element_appear(*locator)
         actual_text = self.driver.find_element(*locator).text
         assert expected_text == actual_text, f'Expected_text {expected_text}, but got {actual_text}'
 
@@ -62,4 +67,9 @@ class Page:
     def hover_over_element_idx(self, *locator, idx):
         elements = self.find_elements(*locator)
         self.actions.move_to_element(elements[idx]).perform()
+
+    def scroll_into_view(self, *locator):
+        elem = self.driver.find_element(*locator)
+        self.driver.execute_script("arguments[0].scrollIntoView()", elem)
+
 
