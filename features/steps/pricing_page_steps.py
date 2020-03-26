@@ -8,6 +8,7 @@ def open_hos247_pricing_page(context):
 @then('Close CHECK OUR PRICES popup')
 def close_prices_popup(context):
     context.app.pricing_page.close_prices_popup()
+    sleep(4)
 
 @then('Verify {header} page header')
 def verify_page_header(context, header):
@@ -42,3 +43,12 @@ def input_fleet_size(context, search_text):
 @then('Click request demo button')
 def click_request_demo_button(context):
     context.app.pricing_page.click_request_demo_button()
+
+@then('Verify {header} demo header')
+def verify_demo_header(context, header):
+    context.app.pricing_page.verify_demo_header(header)
+    sleep(1)
+
+@when('Click ELD Compliance Order Now')
+def click_order_now(context):
+    context.app.pricing_page.click_order_now()

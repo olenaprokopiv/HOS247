@@ -1,4 +1,4 @@
-from hos247.pages.base_page import Page
+from pages.base_page import Page
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.common.by import By
@@ -15,6 +15,8 @@ class PricingPage(Page):
     FLEET_SIZE_INPUT = (By.ID, 'field_x1z2y')
     BUTTON_REQUEST_DEMO_LOCATOR = (By.XPATH, "//div[@class='frm_submit']//input")
     ICON_BOX_SUBMITT = (By.XPATH, "//div[@class='frm_message']//p[text()='Your message has been submitted. Thank you!']")
+    ORDER_NOW_LOCATOR = (By.XPATH, "//div[@class='elementor-repeater-item-ywynofq th-pricing-column col-md-4 col-sm-6' and .//div[text()='ELD Compliance']]//a[text()=' Order Now ']")
+
 
     def open(self):
         self.open_page('https://hos247.com/eld-pricing/')
@@ -52,6 +54,10 @@ class PricingPage(Page):
         sleep(2)
         self.click(*self.BUTTON_REQUEST_DEMO_LOCATOR)
 
-    def verify_page_header(self, expected_text: str):
+    def verify_demo_header(self, expected_text: str):
         sleep(4)
         self.verify_element_text(expected_text, *self.ICON_BOX_SUBMITT)
+
+    def click_order_now(self):
+        self.wait_for_element_appear(*self.ORDER_NOW_LOCATOR)
+        self.wait_for_element_click(*self.ORDER_NOW_LOCATOR)

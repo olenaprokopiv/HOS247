@@ -5,9 +5,14 @@ Feature: Test for prising page
     Given Open hos247 pricing page
     Then Close CHECK OUR PRICES popup
     When Input name ppp
-    And  Input company name rrr
+    And Input company name rrr
     And Input email ppprrr@gmail.com
     And Input phone number 2222222222
     And Input fleet size 1
     Then Click request demo button
-    And Verify Your message has been submitted. Thank you! page header
+    And Verify Your message has been submitted. Thank you! demo header
+
+  Scenario: User can choose a Order Now
+    Given Open hos247 pricing page
+    Then Close CHECK OUR PRICES popup
+    When Click ELD Compliance Order Now
