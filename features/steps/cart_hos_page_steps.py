@@ -21,3 +21,11 @@ def click_view_cart(context):
 def verify_quantity(context, number):
     sleep(2)
     context.app.cart_hos_page.verify_quantity()
+
+@when('Click remove')
+def click_remove(context):
+    context.app.cart_hos_page.click_remove()
+
+@then('Continue shopping')
+def click_continue_shopping(context):
+    context.app.cart_hos_page.click_continue_shopping()

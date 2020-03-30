@@ -1,4 +1,159 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe7bcadc-5446-4847-925f-ebe92733607a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/steps/cart_hos_page_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/cart_hos_page_steps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/tests/cart_hos.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/tests/cart_hos.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/cart_hos_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cart_hos_page.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZEHmjodnu1PKpcR69GyFXIzlmF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Behave.cart_hos.feature:User is able to add an item to the Shopping Cart">
+    <configuration name="cart_hos.feature" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+      <module name="hos247" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/tests/cart_hos.feature" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cart_hos.feature:Shopping cart - empty state" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+      <module name="hos247" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/tests/cart_hos.feature" />
+      <SCENRAIO_NAMES SCENRAIO_NAMES="Shopping cart - empty state" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cart_hos.feature:User is able to add an item to the Shopping Cart" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+      <module name="hos247" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/tests/cart_hos.feature" />
+      <SCENRAIO_NAMES SCENRAIO_NAMES="User is able to add an item to the Shopping Cart" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_hos.feature:Verify that pricing page is opened" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+      <module name="hos247" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/tests/main_hos.feature" />
+      <SCENRAIO_NAMES SCENRAIO_NAMES="Verify that pricing page is opened" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Behave.cart_hos.feature:User is able to add an item to the Shopping Cart" />
+        <item itemvalue="Behave.cart_hos.feature:Shopping cart - empty state" />
+        <item itemvalue="Behave.cart_hos.feature" />
+        <item itemvalue="Behave.main_hos.feature:Verify that pricing page is opened" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe7bcadc-5446-4847-925f-ebe92733607a" name="Default Changelist" comment="" />
+      <created>1585257517255</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585257517255</updated>
+      <workItem from="1585257519758" duration="132000" />
+      <workItem from="1585257668947" duration="229000" />
+      <workItem from="1585257915838" duration="141000" />
+      <workItem from="1585258151865" duration="326000" />
+      <workItem from="1585258492571" duration="114000" />
+      <workItem from="1585258629316" duration="81000" />
+      <workItem from="1585258783678" duration="62000" />
+      <workItem from="1585259882881" duration="6184000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="368" y="19" key="#tests" timestamp="1585257799988">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="368" y="19" key="#tests/0.0.1280.680@0.0.1280.680" timestamp="1585257799988" />
+    <state x="421" y="123" key="FileChooserDialogImpl" timestamp="1585258649054">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="123" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1585258649054" />
+    <state width="1072" height="138" key="GridCell.Tab.0.bottom" timestamp="1585589715840">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1072" height="138" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585589715840" />
+    <state width="1072" height="138" key="GridCell.Tab.0.center" timestamp="1585589715839">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1072" height="138" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585589715839" />
+    <state width="1072" height="138" key="GridCell.Tab.0.left" timestamp="1585589715838">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1072" height="138" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585589715838" />
+    <state width="1072" height="138" key="GridCell.Tab.0.right" timestamp="1585589715839">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1072" height="138" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585589715839" />
+    <state x="348" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1585258630807">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="348" y="193" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1585258630807" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/HOS247$main_hos_feature_Verify_that_pricing_page_is_opened.coverage" NAME="main_hos.feature:Verify that pricing page is opened Coverage Results" MODIFIED="1585258355125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/HOS247$cart_hos_feature_Shopping_cart___empty_state.coverage" NAME="cart_hos.feature:Shopping cart - empty state Coverage Results" MODIFIED="1585586651046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/HOS247$cart_hos_feature_User_is_able_to_add_an_item_to_the_Shopping_Cart.coverage" NAME="cart_hos.feature:User is able to add an item to the Shopping Cart Coverage Results" MODIFIED="1585589715789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/HOS247$cart_hos_feature.coverage" NAME="cart_hos.feature Coverage Results" MODIFIED="1585585179177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
 </project>
