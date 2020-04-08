@@ -2,15 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe7bcadc-5446-4847-925f-ebe92733607a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/features/steps/ai_dispatch_steps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/tests/ai_dispatch.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/ai_dispatch_hos_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/steps/cart_hos_page_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/cart_hos_page_steps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/application.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/tests/cart_hos.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/tests/cart_hos.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/cart_hos_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cart_hos_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Gherkin feature file" />
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,8 +50,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Behave.cart_hos.feature:User is able to add an item to the Shopping Cart">
+  <component name="RunManager" selected="Behave.ai_dispatch.feature:User can fill out the form">
+    <configuration name="ai_dispatch.feature:User can fill out the form" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+      <module name="hos247" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/tests/ai_dispatch.feature" />
+      <SCENRAIO_NAMES SCENRAIO_NAMES="User can fill out the form" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="cart_hos.feature" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
       <module name="hos247" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,6 +129,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Behave.ai_dispatch.feature:User can fill out the form" />
         <item itemvalue="Behave.cart_hos.feature:User is able to add an item to the Shopping Cart" />
         <item itemvalue="Behave.cart_hos.feature:Shopping cart - empty state" />
         <item itemvalue="Behave.cart_hos.feature" />
@@ -113,44 +154,74 @@
       <workItem from="1585258492571" duration="114000" />
       <workItem from="1585258629316" duration="81000" />
       <workItem from="1585258783678" duration="62000" />
-      <workItem from="1585259882881" duration="6184000" />
+      <workItem from="1585259882881" duration="7197000" />
+      <workItem from="1585692569255" duration="17527000" />
     </task>
+    <task id="LOCAL-00001" summary="hos247 Continue shopping finished">
+      <created>1585589867965</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585589867965</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hos247 Continue shopping finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="hos247 Continue shopping finished" />
   </component>
   <component name="WindowStateProjectService">
     <state x="368" y="19" key="#tests" timestamp="1585257799988">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="368" y="19" key="#tests/0.0.1280.680@0.0.1280.680" timestamp="1585257799988" />
+    <state x="242" y="0" key="CommitChangelistDialog2" timestamp="1585589865816">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="242" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1585589865816" />
     <state x="421" y="123" key="FileChooserDialogImpl" timestamp="1585258649054">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="123" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1585258649054" />
-    <state width="1072" height="138" key="GridCell.Tab.0.bottom" timestamp="1585589715840">
+    <state width="1072" height="138" key="GridCell.Tab.0.bottom" timestamp="1586367312014">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1072" height="138" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585589715840" />
-    <state width="1072" height="138" key="GridCell.Tab.0.center" timestamp="1585589715839">
+    <state width="1072" height="138" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586367312014" />
+    <state width="1072" height="138" key="GridCell.Tab.0.center" timestamp="1586367312014">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1072" height="138" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585589715839" />
-    <state width="1072" height="138" key="GridCell.Tab.0.left" timestamp="1585589715838">
+    <state width="1072" height="138" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586367312014" />
+    <state width="1072" height="138" key="GridCell.Tab.0.left" timestamp="1586367312013">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1072" height="138" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585589715838" />
-    <state width="1072" height="138" key="GridCell.Tab.0.right" timestamp="1585589715839">
+    <state width="1072" height="138" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586367312013" />
+    <state width="1072" height="138" key="GridCell.Tab.0.right" timestamp="1586367312014">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1072" height="138" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585589715839" />
-    <state x="348" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1585258630807">
+    <state width="1072" height="138" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586367312014" />
+    <state x="109" y="0" key="SettingsEditor" timestamp="1586004726898">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="348" y="193" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1585258630807" />
+    <state x="109" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1586004726898" />
+    <state x="198" y="90" key="Vcs.Push.Dialog.v2" timestamp="1585589929743">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="198" y="90" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1585589929743" />
+    <state x="348" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1585692573343">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="348" y="193" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1585692573343" />
+    <state x="311" y="109" width="588" height="488" key="find.popup" timestamp="1586009483365">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="311" y="109" width="588" height="488" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1586009483365" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/HOS247$ai_dispatch_feature_User_can_fill_out_the_form.coverage" NAME="ai_dispatch.feature:User can fill out the form Coverage Results" MODIFIED="1586367311990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/HOS247$main_hos_feature_Verify_that_pricing_page_is_opened.coverage" NAME="main_hos.feature:Verify that pricing page is opened Coverage Results" MODIFIED="1585258355125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/HOS247$cart_hos_feature_Shopping_cart___empty_state.coverage" NAME="cart_hos.feature:Shopping cart - empty state Coverage Results" MODIFIED="1585586651046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/HOS247$cart_hos_feature_User_is_able_to_add_an_item_to_the_Shopping_Cart.coverage" NAME="cart_hos.feature:User is able to add an item to the Shopping Cart Coverage Results" MODIFIED="1585589715789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
